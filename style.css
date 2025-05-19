@@ -1,0 +1,48 @@
+body{
+	background: #660066;
+	font-family: helvetica san-serif;
+	max-width: 600px;
+	margin: 0 auto;
+	}
+h1{
+	text-align: center;
+	font-size: 75px;
+	color:#ff99ff;
+	font-family: 'Londrina Shadow', cursive;
+}
+h3{
+	text-align: center;
+	color:#ff99ff;
+}
+div{
+	height:200px;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	margin: 40px 0 0 0;
+}
+.first{
+	background-image: url("img/p1.jpg");
+	height: 400px;
+	
+}
+.second{
+	background-image: url("img/p2.jpg");
+	height: 400px;
+}
+p{
+	color:darkred;
+	background: rgba(255,255,255,0.4);
+	position: absolute;
+	padding: 5px;
+	text-align: justify;
+	line-height: 18px;
+	
+	bottom: 0;
+	margin: 0;
+	width:98.5%;
+}
+
+.price{
+	float: right;
+}
